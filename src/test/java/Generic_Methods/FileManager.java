@@ -42,4 +42,12 @@ public class FileManager
 		Reporter.log("Failed to load production url", true);
 		return url;
 	}
+	public long getImplicitlyTime()
+	{
+		String implicitlywait = pro.getProperty("iw");
+		if(implicitlywait==null)
+		Reporter.log("Failed to ge wait time", true);
+		long iw = Long.parseLong(implicitlywait);
+		return iw;
+	}
 }

@@ -1,5 +1,6 @@
 package Generic_Methods;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -57,6 +58,8 @@ public class Generic_Test implements Auto_Const
 			driver.get(new FileManager().getTesturl());
 			driver.manage().window().maximize();
 		}
+		
+		driver.manage().timeouts().implicitlyWait(new FileManager().getImplicitlyTime(), TimeUnit.SECONDS);
 	}
 	@AfterMethod
 	public void closeAppn(ITestResult res) throws IOException
