@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Regression_Scripts.HospitalLifecycle_Pharmacist_Adding_Category_AndCheccking_Under_List">
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_creating_nurse_pharmacist">
         <methods>
-          <include name="creatingMedicineCategory"/>
+          <include name="admin_creating_nurse_pharmacist"/>
           <include name="setup"/>
           <include name="teardown"/>
           <include name="closeAppn"/>
           <include name="openapp"/>
         </methods>
-      </class> <!-- Regression_Scripts.HospitalLifecycle_Pharmacist_Adding_Category_AndCheccking_Under_List -->
+      </class> <!-- Regression_Scripts.Hospital_lifecycle_admin_creating_nurse_pharmacist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
