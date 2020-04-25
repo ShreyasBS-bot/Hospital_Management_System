@@ -97,3 +97,5 @@
 2020-04-11 23:40:14,719 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/arunt/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
 2020-04-12 12:13:14,345  INFO [main] Generic_Test:42 - Browser is launched
 2020-04-12 12:19:23,194  INFO [main] Generic_Test:42 - Browser is launched
+2020-04-25 19:31:22,870  INFO [main] Generic_Test:42 - Browser is launched
+2020-04-25 19:31:41,833  INFO [main] Generic_Test:42 - Browser is launched

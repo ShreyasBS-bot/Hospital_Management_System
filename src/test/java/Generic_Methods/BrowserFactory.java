@@ -27,7 +27,7 @@ public class BrowserFactory implements Auto_Const
 			break;
 		
 		case "firefox":
-			driver=drivers.get("fireox");
+			driver=drivers.get("firefox");
 			if(driver==null)
 			System.setProperty(firefox_key, firefox_value);
 			driver=new FirefoxDriver();

@@ -24,7 +24,7 @@ public class Screenshot
 		String path=System.getProperty("user.dir")+"./Defects/"+date+test_name+".jpeg";
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest=new File(path+date+test_name+".jpeg");
+		File dest=new File(path);
 		try
 		{
 			FileHandler.copy(src, dest);
