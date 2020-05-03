@@ -142,7 +142,7 @@ public abstract class Base_Page
 				wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(no));
 			}
 			catch(Exception e)
-			{
+ 			{
 				Reporter.log("Failed to wait until window loads", true);
 				Assert.fail();
 			}
