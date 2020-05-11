@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Regression_Scripts.Hospital_lifecycle_admin_creating_nurse_pharmacist">
+      <class name="Guru99.Day4">
         <methods>
-          <include name="admin_creating_nurse_pharmacist"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="closeAppn"/>
-          <include name="openapp"/>
+          <include name="teadDown"/>
+          <include name="steps"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Regression_Scripts.Hospital_lifecycle_admin_creating_nurse_pharmacist -->
+      </class> <!-- Guru99.Day4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

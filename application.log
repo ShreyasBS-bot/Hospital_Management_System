@@ -99,3 +99,16 @@
 2020-04-12 12:19:23,194  INFO [main] Generic_Test:42 - Browser is launched
 2020-04-25 19:31:22,870  INFO [main] Generic_Test:42 - Browser is launched
 2020-04-25 19:31:41,833  INFO [main] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:25,084  INFO [TestNG-tests-2] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:25,084  INFO [TestNG-tests-3] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:25,084  INFO [TestNG-tests-1] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:29,215  INFO [TestNG-tests-2] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:44,666  INFO [TestNG-tests-1] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:45,757  INFO [TestNG-tests-3] Generic_Test:42 - Browser is launched
+2020-05-11 00:58:58,167  INFO [TestNG-tests-3] Generic_Test:42 - Browser is launched
+2020-05-11 00:59:05,595  INFO [TestNG-tests-2] Generic_Test:42 - Browser is launched
+2020-05-11 00:59:11,223  INFO [TestNG-tests-3] Generic_Test:42 - Browser is launched
+2020-05-11 00:59:33,650  INFO [TestNG-tests-1] Generic_Test:42 - Browser is launched
+2020-05-11 00:59:43,447  INFO [TestNG-tests-2] Generic_Test:42 - Browser is launched
+2020-05-11 01:00:01,408  INFO [TestNG-tests-1] Generic_Test:42 - Browser is launched
+2020-05-11 23:56:00,711  INFO [main] Generic_Test:42 - Browser is launched

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
+<suite name="Suite">
   <test thread-count="5" name="Test">
-  	<parameter name="browser" value="firefox"></parameter>
     <classes>
+      <class name="Regression_Scripts.Hospital_Lifecycle_admin_creating_Nurse"/>
+      <class name="Regression_Scripts.HospitalLifecycle_Pharmacist_Adding_Category_AndCheccking_Under_List"/>
       <class name="Smoke_Scripts.Hospital_Lifecycle_admin_creating_Pharmacist"/>
+      <class name="Regression_Scripts.Hospital_lfecycle_admin_creating_doctor_patient"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_Patient_Viewing_prescription"/>
       <class name="Smoke_Scripts.Hospital_Lifecycle_admin_Creating_Nurse"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_creating_patient"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_creating_nurse_pharmacist"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_Doctor_Creating_appointment_for_patient_and_cheking_his_calender"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_updating_doctor_details"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_updating_nurse_details"/>
+      <class name="Regression_Scripts.Hospital_Lifecycle_admin_updating_patient_details"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_loginpage"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_Doctor_Updating_his_profile"/>
+      <class name="Regression_Scripts.Hospital_Lifecycle_admin_creating_Pharmacist"/>
+      <class name="Regression_Scripts.Hosipital_lifecycle_Nurse_Creating_Patient_And_CheckingInList"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_admin_creating_doctor"/>
+      <class name="Regression_Scripts.Hospital_lifecycle_doctor_creating_appointment_and_checking_in_appointment_list"/>
       <class name="Smoke_Scripts.Hospital_lifecycle_admin_creating_patient"/>
       <class name="Smoke_Scripts.Hospital_lifecycle_admin_creating_doctor"/>
     </classes>
