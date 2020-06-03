@@ -7,6 +7,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 public class Excel 
@@ -25,6 +26,7 @@ public class Excel
 		catch(Exception e)
 		{
 			Reporter.log("Failed to read data", true);
+			Assert.fail();
 		}
 		return val;
 	}
@@ -43,6 +45,7 @@ public class Excel
 		catch(Exception e)
 		{
 			Reporter.log("FAiled to write data", true);
+			Assert.fail();
 		}
 	}
 }
